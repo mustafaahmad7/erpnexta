@@ -1,0 +1,1118 @@
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+2023-11-02 10:22:05,433 Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 147, in execute_job
+    retval = method(**kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1124, in create_contact
+    contact.insert(
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in insert
+    self._validate_links()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/model/document.py", line 910, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/__init__.py", line 505, in throw
+    msgprint(
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/__init__.py", line 480, in msgprint
+    _raise_exception()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/__init__.py", line 435, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: mustaffabro@gmail.com
+
+2023-11-02 10:22:06,110 Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 147, in execute_job
+    retval = method(**kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1124, in create_contact
+    contact.insert(
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in insert
+    self._validate_links()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/model/document.py", line 910, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/__init__.py", line 505, in throw
+    msgprint(
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/__init__.py", line 480, in msgprint
+    _raise_exception()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/__init__.py", line 435, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: mustaffabro@gmail.com
+
+2023-11-02 11:09:10,379 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+2023-11-02 11:09:10,379 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+2023-11-02 11:09:10,379 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-11-02 11:09:11,380 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-02 11:09:11,380 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-02 11:09:11,380 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-02 11:09:13,381 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-02 11:09:13,381 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-02 11:09:13,382 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-02 11:09:17,383 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+2023-11-02 11:09:17,384 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+2023-11-02 11:09:17,385 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-11-02 11:09:25,393 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-02 11:09:25,394 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-02 11:09:25,394 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-02 11:09:41,409 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+2023-11-02 11:09:41,414 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+2023-11-02 11:09:41,414 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    start_worker(queue, quiet=quiet)
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise ConnectionError(self._error_message(e))
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 550, in work
+    self.register_birth()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 286, in register_birth
+    if self.connection.exists(self.key) and \
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+fatal: No remote configured to list refs from.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/erpnext/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/home/erpnext/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:18: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.

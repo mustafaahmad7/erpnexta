@@ -1,0 +1,3 @@
+2023-11-05 13:40:47,256 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 13:40:47,330 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 13:40:47,451 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com

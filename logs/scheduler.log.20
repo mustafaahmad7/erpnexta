@@ -1,0 +1,2 @@
+2023-11-05 08:49:51,987 INFO scheduler Scheduled Job Start: erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status for erp.mustafakhan.com
+2023-11-05 08:49:52,157 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status for erp.mustafakhan.com

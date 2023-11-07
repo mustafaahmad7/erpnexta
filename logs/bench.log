@@ -1,0 +1,165 @@
+2023-11-02 09:56:07,204 DEBUG cd frappe-bench && python3 -m venv env
+2023-11-02 09:56:09,174 DEBUG cd frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-11-02 09:56:11,781 DEBUG cd frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-11-02 09:56:14,389 LOG Getting frappe
+2023-11-02 09:56:14,389 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-13 --depth 1 --origin upstream
+2023-11-02 09:56:18,394 LOG Installing frappe
+2023-11-02 09:56:18,394 DEBUG cd /home/erpnext/frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/apps/frappe 
+2023-11-02 09:57:40,210 DEBUG cd /home/erpnext/frappe-bench/apps/frappe && yarn install
+2023-11-02 09:58:04,568 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-11-02 09:58:04,569 DEBUG cd frappe-bench && bench build
+2023-11-02 09:58:04,704 INFO /usr/local/bin/bench build
+2023-11-02 09:58:40,389 LOG setting up backups
+2023-11-02 09:58:40,501 LOG backups were set up
+2023-11-02 09:58:40,505 INFO Bench frappe-bench initialized
+2023-11-02 10:01:59,558 INFO /usr/local/bin/bench new-site erp.mustafakhan.com
+2023-11-02 10:02:50,958 INFO /usr/local/bin/bench get-app --branch version-13 erpnext
+2023-11-02 10:02:51,608 LOG Getting erpnext
+2023-11-02 10:02:51,608 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2023-11-02 10:02:55,822 LOG Installing erpnext
+2023-11-02 10:02:55,924 DEBUG cd /home/erpnext/frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/apps/erpnext 
+2023-11-02 10:03:34,775 DEBUG cd /home/erpnext/frappe-bench/apps/erpnext && yarn install
+2023-11-02 10:03:35,964 DEBUG bench build --app erpnext
+2023-11-02 10:03:36,032 INFO /usr/local/bin/bench build --app erpnext
+2023-11-02 10:03:46,335 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe:
+2023-11-02 10:03:46,464 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-11-02 10:03:46,464 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-02 10:12:00,339 INFO /usr/local/bin/bench --site erp.mustafakhan.com install-app erpnext
+2023-11-02 10:13:44,808 INFO /usr/local/bin/bench --site erp.mustafakhan.com set-maintenance-mode off
+2023-11-02 10:14:06,314 INFO /usr/local/bin/bench --site erp.mustafakhan.com enable-scheduler
+2023-11-02 10:14:17,612 INFO /usr/local/bin/bench use erp.mustafakhan.com
+2023-11-02 10:14:35,319 INFO /usr/local/bin/bench setup production erpnext
+2023-11-02 10:14:35,322 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2023-11-02 10:14:57,046 DEBUG bench setup role fail2ban
+2023-11-02 10:14:57,139 INFO /usr/local/bin/bench setup role fail2ban
+2023-11-02 10:15:09,474 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-02 10:15:09,502 DEBUG bench setup role nginx
+2023-11-02 10:15:09,578 INFO /usr/local/bin/bench setup role nginx
+2023-11-02 10:15:22,167 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-02 10:15:22,189 LOG Updated supervisord.conf: 'chmod' changed from '0760                       ; sockef file mode (default 0700)' to '0760'
+2023-11-02 10:15:22,236 DEBUG sudo /usr/sbin/nginx -t
+2023-11-02 10:15:22,261 DEBUG sudo systemctl reload nginx
+2023-11-02 10:15:22,714 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-02 10:15:35,567 INFO /usr/local/bin/bench setup nginx
+2023-11-02 10:15:39,769 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-02 10:16:05,157 INFO /usr/local/bin/bench setup production erpnext
+2023-11-02 10:16:05,161 LOG Updated supervisord.conf: 'chmod' changed from '0760                       ; sockef file mode (default 0700)' to '0760'
+2023-11-02 10:16:07,312 DEBUG /usr/bin/supervisorctl reread
+2023-11-02 10:16:07,443 DEBUG /usr/bin/supervisorctl update
+2023-11-02 10:16:07,594 DEBUG sudo /usr/sbin/nginx -t
+2023-11-02 10:16:07,609 DEBUG sudo systemctl reload nginx
+2023-11-02 10:16:07,687 INFO /usr/local/bin/bench worker --queue long
+2023-11-02 10:16:07,804 INFO /usr/local/bin/bench schedule
+2023-11-02 10:16:07,812 INFO /usr/local/bin/bench worker --queue short
+2023-11-02 10:16:07,846 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 10:16:08,087 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-02 10:17:32,421 INFO /usr/local/bin/bench start
+2023-11-02 10:18:49,240 INFO /usr/local/bin/bench start
+2023-11-02 10:19:59,711 INFO /usr/local/bin/bench start
+2023-11-02 10:19:59,892 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 10:19:59,921 INFO /usr/local/bin/bench schedule
+2023-11-02 10:19:59,925 INFO /usr/local/bin/bench worker
+2023-11-02 10:20:00,006 INFO /usr/local/bin/bench watch
+2023-11-02 11:07:20,977 INFO /usr/local/bin/bench new-app kingcoder
+2023-11-02 11:07:20,982 LOG creating new app kingcoder
+2023-11-02 11:08:09,320 LOG Installing kingcoder
+2023-11-02 11:08:09,320 DEBUG cd /home/erpnext/frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/apps/kingcoder 
+2023-11-02 11:08:10,917 DEBUG bench build --app kingcoder
+2023-11-02 11:08:11,060 INFO /usr/local/bin/bench build --app kingcoder
+2023-11-02 11:08:13,951 DEBUG cd /home/erpnext/frappe-bench && supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-11-02 11:08:14,207 INFO /usr/local/bin/bench schedule
+2023-11-02 11:08:14,210 INFO /usr/local/bin/bench worker --queue long
+2023-11-02 11:08:14,259 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 11:08:14,283 INFO /usr/local/bin/bench worker --queue short
+2023-11-02 11:08:17,340 WARNING cd /home/erpnext/frappe-bench && supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-11-02 11:08:17,341 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-02 11:08:18,445 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-02 11:08:57,322 INFO /usr/local/bin/bench --site erp.mustafakhan.com install-app kingcoder
+2023-11-02 11:09:17,282 INFO /usr/local/bin/bench start
+2023-11-02 11:09:17,502 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 11:09:17,511 INFO /usr/local/bin/bench worker
+2023-11-02 11:09:17,572 INFO /usr/local/bin/bench watch
+2023-11-02 11:09:17,572 INFO /usr/local/bin/bench schedule
+2023-11-02 11:09:41,878 INFO /usr/local/bin/bench start
+2023-11-02 11:09:42,054 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 11:09:42,097 INFO /usr/local/bin/bench watch
+2023-11-02 11:09:42,151 INFO /usr/local/bin/bench worker
+2023-11-02 11:09:42,152 INFO /usr/local/bin/bench schedule
+2023-11-02 11:10:08,946 INFO /usr/local/bin/bench start
+2023-11-02 11:10:09,119 INFO /usr/local/bin/bench schedule
+2023-11-02 11:10:09,130 INFO /usr/local/bin/bench worker
+2023-11-02 11:10:09,164 INFO /usr/local/bin/bench watch
+2023-11-02 11:10:09,192 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 11:21:59,467 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2023-11-02 11:22:37,227 INFO /usr/local/bin/bench start
+2023-11-02 11:22:37,537 INFO /usr/local/bin/bench worker
+2023-11-02 11:22:37,540 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 11:22:37,594 INFO /usr/local/bin/bench watch
+2023-11-02 11:22:37,617 INFO /usr/local/bin/bench schedule
+2023-11-02 11:23:41,467 INFO /usr/local/bin/bench --site erp.mustafakhan.com clear-cache
+2023-11-02 12:00:01,360 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 16:05:39,522 INFO /usr/local/bin/bench get-app https://github.com/ERPGulf/four_whats_net.git
+2023-11-02 16:05:39,530 LOG Getting four_whats_net
+2023-11-02 16:05:39,530 DEBUG cd ./apps && git clone https://github.com/ERPGulf/four_whats_net.git  --depth 1 --origin upstream
+2023-11-02 16:05:40,803 LOG Installing four_whats_net
+2023-11-02 16:05:41,842 DEBUG cd /home/erpnext/frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/apps/four_whats_net 
+2023-11-02 16:05:43,436 DEBUG bench build --app four_whats_net
+2023-11-02 16:05:43,608 INFO /usr/local/bin/bench build --app four_whats_net
+2023-11-02 16:05:46,234 DEBUG cd /home/erpnext/frappe-bench && supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-11-02 16:05:46,613 INFO /usr/local/bin/bench worker --queue short
+2023-11-02 16:05:46,625 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 16:05:46,654 INFO /usr/local/bin/bench schedule
+2023-11-02 16:05:46,680 INFO /usr/local/bin/bench worker --queue long
+2023-11-02 16:05:48,519 INFO /usr/local/bin/bench worker --queue short
+2023-11-02 16:05:48,539 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 16:05:48,644 INFO /usr/local/bin/bench worker --queue long
+2023-11-02 16:05:50,360 WARNING cd /home/erpnext/frappe-bench && supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-11-02 16:05:50,360 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-02 16:05:50,956 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-02 16:05:51,690 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 16:05:51,691 INFO /usr/local/bin/bench worker --queue short
+2023-11-02 16:05:51,692 INFO /usr/local/bin/bench worker --queue long
+2023-11-02 16:05:55,432 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 16:05:55,440 INFO /usr/local/bin/bench worker --queue short
+2023-11-02 16:05:55,442 INFO /usr/local/bin/bench worker --queue long
+2023-11-02 16:06:52,937 INFO /usr/local/bin/bench --site erp.mustafakhan.com install-app four_whats_net
+2023-11-02 16:07:08,385 INFO /usr/local/bin/bench --site erp.mustafakhan.com migrate
+2023-11-02 16:07:26,259 INFO /usr/local/bin/bench --site erp.mustafakhan.com migrate
+2023-11-02 16:07:48,795 INFO /usr/local/bin/bench start
+2023-11-02 16:07:49,031 INFO /usr/local/bin/bench watch
+2023-11-02 16:07:49,043 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 16:07:49,067 INFO /usr/local/bin/bench schedule
+2023-11-02 16:07:49,104 INFO /usr/local/bin/bench worker
+2023-11-02 16:07:53,236 INFO /usr/local/bin/bench start
+2023-11-02 16:07:53,404 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 16:07:53,448 INFO /usr/local/bin/bench schedule
+2023-11-02 16:07:53,452 INFO /usr/local/bin/bench worker
+2023-11-02 16:07:53,485 INFO /usr/local/bin/bench watch
+2023-11-02 16:08:18,784 INFO /usr/local/bin/bench start
+2023-11-02 16:08:18,944 INFO /usr/local/bin/bench watch
+2023-11-02 16:08:18,947 INFO /usr/local/bin/bench worker
+2023-11-02 16:08:19,035 INFO /usr/local/bin/bench schedule
+2023-11-02 16:08:19,049 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 16:08:30,846 INFO /usr/local/bin/bench --site erp.mustafakhan.com migrate
+2023-11-05 08:48:42,547 INFO /usr/local/bin/bench worker --queue default
+2023-11-05 08:48:42,547 INFO /usr/local/bin/bench schedule
+2023-11-05 08:48:42,548 INFO /usr/local/bin/bench worker --queue long
+2023-11-05 08:48:42,548 INFO /usr/local/bin/bench worker --queue short
+2023-11-05 08:53:28,527 INFO /usr/local/bin/bench start
+2023-11-05 08:54:06,861 INFO /usr/local/bin/bench start
+2023-11-05 08:54:36,539 INFO /usr/local/bin/bench start
+2023-11-05 08:54:36,705 INFO /usr/local/bin/bench schedule
+2023-11-05 08:54:36,729 INFO /usr/local/bin/bench worker
+2023-11-05 08:54:36,773 INFO /usr/local/bin/bench serve --port 8000
+2023-11-05 08:54:36,783 INFO /usr/local/bin/bench watch
+2023-11-05 12:00:01,328 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-05 17:12:41,073 INFO /usr/local/bin/bench get-app https://github.com/mustafajedi/test.git
+2023-11-05 17:12:41,082 LOG Getting test
+2023-11-05 17:12:41,083 DEBUG cd ./apps && git clone https://github.com/mustafajedi/test.git  --depth 1 --origin upstream
+2023-11-05 17:12:43,648 WARNING /usr/local/bin/bench get-app https://github.com/mustafajedi/test.git executed with exit code 1
+2023-11-05 17:12:44,907 INFO A newer version of bench is available: 5.16.0 → 5.19.0
+2023-11-06 12:00:01,327 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-07 08:24:35,503 INFO /usr/local/bin/bench schedule
+2023-11-07 08:24:35,503 INFO /usr/local/bin/bench worker --queue default
+2023-11-07 08:24:35,536 INFO /usr/local/bin/bench worker --queue short
+2023-11-07 08:24:35,569 INFO /usr/local/bin/bench worker --queue long

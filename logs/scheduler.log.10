@@ -1,0 +1,719 @@
+2023-11-05 15:18:07,620 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:19:07,795 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:20:08,003 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:20:08,025 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:20:08,133 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:20:08,189 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:20:08,328 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:20:08,392 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:20:08,497 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:20:08,559 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:20:08,709 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:20:08,782 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:20:08,964 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:20:09,029 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:20:09,127 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:20:09,189 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:20:09,286 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:20:09,352 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:20:09,520 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:20:09,586 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:20:09,724 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:20:09,786 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:20:09,935 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:20:09,992 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:20:10,097 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:21:08,234 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:22:08,463 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:23:08,708 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:24:08,927 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:24:08,970 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:24:09,060 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:24:09,126 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:24:09,264 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:24:09,318 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:24:09,430 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:24:09,480 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:24:09,636 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:24:09,701 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:24:09,798 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:24:09,856 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:24:09,958 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:24:10,033 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:24:10,203 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:24:10,259 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:24:10,396 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:24:10,467 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:24:10,621 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:24:10,684 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:24:10,810 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:25:09,201 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:25:09,204 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:25:09,375 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:26:09,422 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:27:09,635 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:28:09,846 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:28:09,876 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:28:09,994 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:28:10,065 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:28:10,199 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:28:10,248 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:28:10,371 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:28:10,436 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:28:10,584 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:28:10,645 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:28:10,741 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:28:10,803 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:28:10,900 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:28:10,964 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:28:11,133 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:28:11,198 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:28:11,351 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:28:11,421 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:28:11,575 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:28:11,639 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:28:11,752 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:29:10,095 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:30:10,287 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for erp.mustafakhan.com
+2023-11-05 15:30:10,308 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:30:10,476 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for erp.mustafakhan.com
+2023-11-05 15:30:10,533 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for erp.mustafakhan.com
+2023-11-05 15:30:10,725 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for erp.mustafakhan.com
+2023-11-05 15:30:10,789 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:30:10,960 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:30:11,027 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 15:30:11,221 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 15:30:11,286 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 15:30:11,489 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 15:30:11,552 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 15:30:11,719 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 15:31:10,550 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:32:10,760 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:32:10,802 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:32:10,896 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:32:10,954 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:32:11,079 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:32:11,137 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:32:11,252 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:32:11,305 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:32:11,452 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:32:11,525 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:32:11,629 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:32:11,685 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:32:11,781 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:32:11,844 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:32:12,014 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:32:12,069 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:32:12,211 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:32:12,271 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:32:12,429 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:32:12,483 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:32:12,595 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:33:11,010 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:34:11,242 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:35:11,448 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:35:11,453 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:35:11,614 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:36:11,652 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:36:11,671 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:36:11,781 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:36:11,847 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:36:11,983 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:36:12,038 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:36:12,142 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:36:12,203 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:36:12,351 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:36:12,408 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:36:12,498 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:36:12,557 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:36:12,652 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:36:12,710 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:36:12,867 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:36:12,937 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:36:13,076 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:36:13,142 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:36:13,300 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:36:13,360 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:36:13,480 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:37:11,887 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:38:12,093 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:39:12,334 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:40:12,565 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:40:12,606 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:40:12,704 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:40:12,763 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:40:12,894 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:40:12,949 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:40:13,061 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:40:13,126 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:40:13,278 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:40:13,346 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:40:13,515 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:40:13,580 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:40:13,684 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:40:13,749 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:40:13,846 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:40:13,902 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:40:14,067 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:40:14,127 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:40:14,267 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:40:14,319 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:40:14,487 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:40:14,541 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:40:14,655 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:41:12,837 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:42:13,074 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:43:13,290 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:44:13,470 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:44:13,526 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:44:13,603 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:44:13,659 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:44:13,788 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:44:13,843 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:44:13,960 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:44:14,015 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:44:14,171 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:44:14,232 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:44:14,325 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:44:14,382 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:44:14,480 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:44:14,542 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:44:14,701 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:44:14,756 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:44:14,908 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:44:14,965 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:44:15,123 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:44:15,179 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:44:15,286 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:45:13,758 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:45:13,772 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:45:13,926 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:45:14,008 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 15:45:14,202 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 15:45:14,264 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 15:45:14,454 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 15:45:14,509 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 15:45:14,692 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 15:46:13,983 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:47:14,210 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:48:14,400 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:48:14,445 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:48:14,540 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:48:14,595 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:48:14,727 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:48:14,789 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:48:14,896 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:48:14,952 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:48:15,109 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:48:15,170 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:48:15,284 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:48:15,337 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:48:15,445 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:48:15,497 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:48:15,674 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:48:15,729 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:48:15,877 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:48:15,934 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:48:16,098 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:48:16,151 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:48:16,263 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:49:14,673 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:50:14,841 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:50:14,859 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:50:15,039 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:51:15,020 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:52:15,236 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:52:15,277 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:52:15,387 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:52:15,439 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:52:15,568 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:52:15,632 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:52:15,755 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:52:15,807 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:52:16,021 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:52:16,098 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:52:16,217 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:52:16,269 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:52:16,367 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:52:16,424 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:52:16,617 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:52:16,676 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:52:16,843 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:52:16,906 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:52:17,083 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:52:17,155 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:52:17,303 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:53:15,521 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:54:15,773 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:55:15,934 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:55:15,938 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:55:16,088 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 15:56:16,151 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:56:16,161 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:56:16,285 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 15:56:16,335 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:56:16,482 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 15:56:16,534 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:56:16,643 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 15:56:16,700 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:56:16,900 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 15:56:16,955 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:56:17,064 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 15:56:17,146 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:56:17,272 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 15:56:17,323 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:56:17,492 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 15:56:17,544 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:56:17,678 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 15:56:17,731 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:56:17,877 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 15:56:17,929 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:56:18,039 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 15:57:16,340 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:58:16,507 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 15:59:16,708 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:00:16,844 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for erp.mustafakhan.com
+2023-11-05 16:00:17,069 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for erp.mustafakhan.com
+2023-11-05 16:00:17,092 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:00:17,128 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for erp.mustafakhan.com
+2023-11-05 16:00:17,358 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for erp.mustafakhan.com
+2023-11-05 16:00:17,414 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for erp.mustafakhan.com
+2023-11-05 16:00:17,612 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for erp.mustafakhan.com
+2023-11-05 16:00:17,676 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for erp.mustafakhan.com
+2023-11-05 16:00:17,897 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for erp.mustafakhan.com
+2023-11-05 16:00:17,964 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for erp.mustafakhan.com
+2023-11-05 16:00:18,191 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for erp.mustafakhan.com
+2023-11-05 16:00:18,249 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for erp.mustafakhan.com
+2023-11-05 16:00:18,471 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for erp.mustafakhan.com
+2023-11-05 16:00:18,530 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for erp.mustafakhan.com
+2023-11-05 16:00:18,688 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for erp.mustafakhan.com
+2023-11-05 16:00:18,749 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for erp.mustafakhan.com
+2023-11-05 16:00:18,898 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for erp.mustafakhan.com
+2023-11-05 16:00:18,962 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:00:19,100 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:00:19,161 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:00:19,302 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:00:19,364 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:00:19,483 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:00:19,543 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:00:19,707 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:00:19,765 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for erp.mustafakhan.com
+2023-11-05 16:00:19,988 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for erp.mustafakhan.com
+2023-11-05 16:00:20,045 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:00:20,214 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:00:20,273 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for erp.mustafakhan.com
+2023-11-05 16:00:20,473 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for erp.mustafakhan.com
+2023-11-05 16:00:20,541 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for erp.mustafakhan.com
+2023-11-05 16:00:20,845 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for erp.mustafakhan.com
+2023-11-05 16:00:20,908 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for erp.mustafakhan.com
+2023-11-05 16:00:21,097 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for erp.mustafakhan.com
+2023-11-05 16:00:21,155 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for erp.mustafakhan.com
+2023-11-05 16:00:21,307 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for erp.mustafakhan.com
+2023-11-05 16:00:21,372 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for erp.mustafakhan.com
+2023-11-05 16:00:21,544 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for erp.mustafakhan.com
+2023-11-05 16:00:21,606 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for erp.mustafakhan.com
+2023-11-05 16:00:21,797 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for erp.mustafakhan.com
+2023-11-05 16:00:21,859 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for erp.mustafakhan.com
+2023-11-05 16:00:22,023 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for erp.mustafakhan.com
+2023-11-05 16:00:22,086 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for erp.mustafakhan.com
+2023-11-05 16:00:22,262 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for erp.mustafakhan.com
+2023-11-05 16:00:22,321 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:00:22,432 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:00:22,486 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:00:22,594 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:00:22,645 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:00:22,811 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:00:22,873 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:00:23,022 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:00:23,079 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:00:23,236 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:00:23,291 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:00:23,402 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:00:23,459 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 16:00:23,652 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 16:00:23,717 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 16:00:23,919 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 16:00:23,989 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 16:00:24,166 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 16:00:24,228 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for erp.mustafakhan.com
+2023-11-05 16:00:24,398 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for erp.mustafakhan.com
+2023-11-05 16:00:24,466 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for erp.mustafakhan.com
+2023-11-05 16:00:24,675 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for erp.mustafakhan.com
+2023-11-05 16:01:17,302 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:02:17,477 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:03:17,726 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:04:17,952 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:04:17,976 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:04:18,087 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:04:18,147 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:04:18,269 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:04:18,320 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:04:18,429 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:04:18,485 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:04:18,627 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:04:18,689 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:04:18,780 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:04:18,853 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:04:18,958 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:04:19,011 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:04:19,176 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:04:19,233 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:04:19,359 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:04:19,425 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:04:19,574 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:04:19,628 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:04:19,743 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:05:18,173 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:05:18,186 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:05:18,404 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:06:18,400 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:07:18,639 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:08:18,866 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:08:18,885 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:08:19,032 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:08:19,089 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:08:19,229 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:08:19,281 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:08:19,395 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:08:19,482 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:08:19,695 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:08:19,823 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:08:19,935 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:08:20,000 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:08:20,128 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:08:20,196 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:08:20,449 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:08:20,536 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:08:20,743 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:08:20,835 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:08:20,993 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:08:21,053 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:08:21,193 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:09:19,403 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:10:19,767 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:10:19,970 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:10:20,666 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:11:20,050 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:12:20,374 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:12:20,455 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:12:20,629 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:12:20,702 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:12:20,909 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:12:20,977 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:12:21,138 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:12:21,229 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:12:21,591 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:12:21,682 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:12:21,848 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:12:21,938 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:12:22,094 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:12:22,178 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:12:22,578 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:12:22,668 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:12:22,896 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:12:22,985 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:12:23,276 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:12:23,359 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:12:23,539 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:13:20,659 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:14:20,911 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:15:21,133 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:15:21,138 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:15:21,303 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:15:21,364 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 16:15:21,561 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 16:15:21,636 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 16:15:21,858 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 16:15:21,927 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 16:15:22,121 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 16:16:21,348 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:16:21,371 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:16:21,488 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:16:21,535 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:16:21,657 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:16:21,716 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:16:21,829 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:16:21,890 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:16:22,028 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:16:22,094 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:16:22,191 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:16:22,255 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:16:22,356 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:16:22,415 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:16:22,570 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:16:22,627 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:16:22,754 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:16:22,812 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:16:22,953 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:16:23,010 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:16:23,131 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:17:21,572 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:18:21,797 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:19:22,093 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:20:22,384 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:20:22,428 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:20:22,705 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:20:22,787 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:20:22,933 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:20:23,019 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:20:23,176 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:20:23,308 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:20:23,559 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:20:23,655 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:20:23,855 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:20:23,910 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:20:24,015 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:20:24,094 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:20:24,344 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:20:24,430 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:20:24,717 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:20:24,788 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:20:25,006 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:20:25,101 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:20:25,371 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:20:25,485 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:20:25,728 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:21:22,670 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:22:23,172 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:23:23,393 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:24:23,599 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:24:23,629 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:24:23,751 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:24:23,800 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:24:23,934 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:24:23,989 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:24:24,096 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:24:24,159 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:24:24,318 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:24:24,370 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:24:24,465 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:24:24,524 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:24:24,614 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:24:24,676 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:24:24,831 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:24:24,903 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:24:25,048 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:24:25,107 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:24:25,255 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:24:25,319 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:24:25,430 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:25:23,833 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:25:23,842 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:25:24,022 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:26:24,074 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:27:24,319 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:28:24,528 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:28:24,553 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:28:24,668 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:28:24,719 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:28:24,856 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:28:24,911 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:28:25,036 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:28:25,090 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:28:25,248 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:28:25,304 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:28:25,403 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:28:25,461 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:28:25,557 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:28:25,612 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:28:25,765 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:28:25,825 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:28:25,986 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:28:26,049 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:28:26,212 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:28:26,272 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:28:26,397 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:29:24,769 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:30:25,000 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for erp.mustafakhan.com
+2023-11-05 16:30:25,012 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:30:25,247 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for erp.mustafakhan.com
+2023-11-05 16:30:25,319 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for erp.mustafakhan.com
+2023-11-05 16:30:25,605 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for erp.mustafakhan.com
+2023-11-05 16:30:25,678 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:30:25,829 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:30:25,896 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 16:30:26,059 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 16:30:26,130 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 16:30:26,323 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 16:30:26,380 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 16:30:26,552 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 16:31:25,263 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:32:25,487 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:32:25,499 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:32:25,623 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:32:25,678 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:32:25,802 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:32:25,869 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:32:25,987 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:32:26,053 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:32:26,215 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:32:26,274 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:32:26,376 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:32:26,440 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:32:26,544 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:32:26,603 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:32:26,760 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:32:26,821 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:32:26,955 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:32:27,013 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:32:27,156 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:32:27,208 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:32:27,317 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:33:25,737 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:34:25,985 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:35:26,211 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:35:26,217 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:35:26,408 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:36:26,517 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:36:26,627 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:36:26,721 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:36:26,800 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:36:26,973 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:36:27,054 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:36:27,216 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:36:27,291 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:36:27,661 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:36:27,838 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:36:28,022 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:36:28,131 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:36:28,245 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:36:28,314 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:36:28,624 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:36:28,811 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:36:29,416 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:36:29,616 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:36:29,941 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:36:30,074 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:36:30,334 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:37:26,942 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:38:27,201 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:39:27,380 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:40:27,636 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:40:27,679 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:40:27,824 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:40:27,885 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:40:28,043 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:40:28,104 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:40:28,230 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:40:28,295 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:40:28,494 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:40:28,549 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:40:28,751 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:40:28,921 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:40:29,078 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:40:29,171 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:40:29,337 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:40:29,570 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:40:29,796 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:40:29,863 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:40:30,146 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:40:30,259 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:40:30,513 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:40:30,587 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:40:30,712 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:41:27,915 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:42:28,154 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:43:28,469 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:44:28,852 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:44:28,904 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:44:29,027 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:44:29,097 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:44:29,239 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:44:29,299 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:44:29,430 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:44:29,485 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:44:29,655 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:44:29,714 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:44:29,819 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:44:29,883 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:44:29,992 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:44:30,054 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:44:30,248 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:44:30,309 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:44:30,461 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:44:30,522 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:44:30,685 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:44:30,736 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:44:30,843 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:45:29,118 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:45:29,140 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:45:29,292 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:45:29,360 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 16:45:29,565 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erp.mustafakhan.com
+2023-11-05 16:45:29,634 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 16:45:29,863 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erp.mustafakhan.com
+2023-11-05 16:45:29,964 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 16:45:30,183 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erp.mustafakhan.com
+2023-11-05 16:46:29,427 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:47:29,577 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:48:29,797 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:48:29,885 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:48:30,001 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:48:30,068 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:48:30,236 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:48:30,295 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:48:30,420 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:48:30,480 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:48:30,695 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:48:30,755 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:48:30,902 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:48:30,964 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:48:31,067 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:48:31,128 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:48:31,363 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:48:31,440 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:48:31,613 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:48:31,682 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:48:31,873 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:48:31,953 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:48:32,104 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:49:30,126 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:50:30,365 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:50:30,402 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:50:30,622 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:51:30,579 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:52:30,843 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:52:30,870 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:52:30,988 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:52:31,046 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:52:31,201 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:52:31,250 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:52:31,369 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:52:31,420 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:52:31,648 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:52:31,703 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:52:31,812 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:52:31,879 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:52:32,011 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:52:32,090 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:52:32,280 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:52:32,341 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:52:32,488 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:52:32,560 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:52:32,739 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:52:32,800 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:52:32,914 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erp.mustafakhan.com
+2023-11-05 16:53:30,992 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:54:31,208 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:55:31,421 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:55:31,433 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:55:31,587 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erp.mustafakhan.com
+2023-11-05 16:56:31,623 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:56:31,675 DEBUG scheduler Queued events for site erp.mustafakhan.com
+2023-11-05 16:56:31,774 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erp.mustafakhan.com
+2023-11-05 16:56:31,827 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:56:31,963 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erp.mustafakhan.com
+2023-11-05 16:56:32,025 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:56:32,135 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erp.mustafakhan.com
+2023-11-05 16:56:32,199 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:56:32,368 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erp.mustafakhan.com
+2023-11-05 16:56:32,434 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:56:32,542 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erp.mustafakhan.com
+2023-11-05 16:56:32,596 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:56:32,691 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erp.mustafakhan.com
+2023-11-05 16:56:32,746 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:56:32,902 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for erp.mustafakhan.com
+2023-11-05 16:56:32,960 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:56:33,100 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erp.mustafakhan.com
+2023-11-05 16:56:33,159 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erp.mustafakhan.com
+2023-11-05 16:57:31,899 DEBUG scheduler Queued events for site erp.mustafakhan.com

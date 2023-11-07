@@ -1,0 +1,202 @@
+[2023-11-02 10:16:08 +0400] [12364] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 10:16:08 +0400] [12364] [INFO] Listening at: http://127.0.0.1:8000 (12364)
+[2023-11-02 10:16:08 +0400] [12364] [INFO] Using worker: sync
+[2023-11-02 10:16:08 +0400] [12414] [INFO] Booting worker with pid: 12414
+[2023-11-02 10:16:08 +0400] [12416] [INFO] Booting worker with pid: 12416
+[2023-11-02 10:16:08 +0400] [12417] [INFO] Booting worker with pid: 12417
+[2023-11-02 10:16:08 +0400] [12419] [INFO] Booting worker with pid: 12419
+[2023-11-02 10:16:08 +0400] [12421] [INFO] Booting worker with pid: 12421
+[2023-11-02 10:16:08 +0400] [12422] [INFO] Booting worker with pid: 12422
+[2023-11-02 10:16:08 +0400] [12423] [INFO] Booting worker with pid: 12423
+[2023-11-02 10:19:37 +0400] [12364] [INFO] Handling signal: term
+[2023-11-02 10:19:37 +0400] [12419] [INFO] Worker exiting (pid: 12419)
+[2023-11-02 10:19:37 +0400] [12421] [INFO] Worker exiting (pid: 12421)
+[2023-11-02 10:19:37 +0400] [12414] [INFO] Worker exiting (pid: 12414)
+[2023-11-02 10:19:37 +0400] [12417] [INFO] Worker exiting (pid: 12417)
+[2023-11-02 10:19:37 +0400] [12416] [INFO] Worker exiting (pid: 12416)
+[2023-11-02 10:19:37 +0400] [12422] [INFO] Worker exiting (pid: 12422)
+[2023-11-02 10:19:37 +0400] [12423] [INFO] Worker exiting (pid: 12423)
+[2023-11-02 10:19:38 +0400] [12364] [INFO] Shutting down: Master
+[2023-11-02 11:08:16 +0400] [13701] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:08:16 +0400] [13701] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:16 +0400] [13701] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:17 +0400] [13701] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:17 +0400] [13701] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:18 +0400] [13701] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:18 +0400] [13701] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:19 +0400] [13701] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:19 +0400] [13701] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:20 +0400] [13701] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:20 +0400] [13701] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:21 +0400] [13701] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:08:21 +0400] [13723] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:08:21 +0400] [13723] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:21 +0400] [13723] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:22 +0400] [13723] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:22 +0400] [13723] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:23 +0400] [13723] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:23 +0400] [13723] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:24 +0400] [13723] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:24 +0400] [13723] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:25 +0400] [13723] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:25 +0400] [13723] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:26 +0400] [13723] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:08:27 +0400] [13738] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:08:27 +0400] [13738] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:27 +0400] [13738] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:28 +0400] [13738] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:28 +0400] [13738] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:29 +0400] [13738] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:29 +0400] [13738] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:30 +0400] [13738] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:30 +0400] [13738] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:31 +0400] [13738] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:31 +0400] [13738] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:32 +0400] [13738] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:08:32 +0400] [13760] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:08:32 +0400] [13760] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:32 +0400] [13760] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:33 +0400] [13760] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:33 +0400] [13760] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:34 +0400] [13760] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:34 +0400] [13760] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:35 +0400] [13760] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:35 +0400] [13760] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:36 +0400] [13760] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:36 +0400] [13760] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:37 +0400] [13760] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:08:38 +0400] [13782] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:08:38 +0400] [13782] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:38 +0400] [13782] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:39 +0400] [13782] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:39 +0400] [13782] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:40 +0400] [13782] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:40 +0400] [13782] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:41 +0400] [13782] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:41 +0400] [13782] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:42 +0400] [13782] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:42 +0400] [13782] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:43 +0400] [13782] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:08:43 +0400] [13804] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:08:43 +0400] [13804] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:43 +0400] [13804] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:44 +0400] [13804] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:44 +0400] [13804] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:45 +0400] [13804] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:45 +0400] [13804] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:46 +0400] [13804] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:46 +0400] [13804] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:47 +0400] [13804] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:47 +0400] [13804] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:48 +0400] [13804] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:08:49 +0400] [13827] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:08:49 +0400] [13827] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:49 +0400] [13827] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:50 +0400] [13827] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:50 +0400] [13827] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:51 +0400] [13827] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:51 +0400] [13827] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:52 +0400] [13827] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:52 +0400] [13827] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:53 +0400] [13827] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:53 +0400] [13827] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:54 +0400] [13827] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:08:55 +0400] [13849] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:08:55 +0400] [13849] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:55 +0400] [13849] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:56 +0400] [13849] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:56 +0400] [13849] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:57 +0400] [13849] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:57 +0400] [13849] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:58 +0400] [13849] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:58 +0400] [13849] [ERROR] Retrying in 1 second.
+[2023-11-02 11:08:59 +0400] [13849] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:08:59 +0400] [13849] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:00 +0400] [13849] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:09:00 +0400] [13879] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:09:00 +0400] [13879] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:00 +0400] [13879] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:01 +0400] [13879] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:01 +0400] [13879] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:02 +0400] [13879] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:02 +0400] [13879] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:03 +0400] [13879] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:03 +0400] [13879] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:04 +0400] [13879] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:04 +0400] [13879] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:05 +0400] [13879] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-02 11:09:07 +0400] [13888] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 11:09:07 +0400] [13888] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:07 +0400] [13888] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:08 +0400] [13888] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:08 +0400] [13888] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:09 +0400] [13888] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:09 +0400] [13888] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:10 +0400] [13888] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-02 11:09:10 +0400] [13888] [ERROR] Retrying in 1 second.
+[2023-11-02 11:09:11 +0400] [13888] [INFO] Listening at: http://127.0.0.1:8000 (13888)
+[2023-11-02 11:09:11 +0400] [13888] [INFO] Using worker: sync
+[2023-11-02 11:09:11 +0400] [13897] [INFO] Booting worker with pid: 13897
+[2023-11-02 11:09:11 +0400] [13898] [INFO] Booting worker with pid: 13898
+[2023-11-02 11:09:11 +0400] [13899] [INFO] Booting worker with pid: 13899
+[2023-11-02 11:09:11 +0400] [13900] [INFO] Booting worker with pid: 13900
+[2023-11-02 11:09:11 +0400] [13901] [INFO] Booting worker with pid: 13901
+[2023-11-02 11:09:11 +0400] [13902] [INFO] Booting worker with pid: 13902
+[2023-11-02 11:09:11 +0400] [13903] [INFO] Booting worker with pid: 13903
+[2023-11-02 11:09:58 +0400] [13888] [INFO] Handling signal: term
+[2023-11-02 11:09:58 +0400] [13897] [INFO] Worker exiting (pid: 13897)
+[2023-11-02 11:09:58 +0400] [13900] [INFO] Worker exiting (pid: 13900)
+[2023-11-02 11:09:58 +0400] [13898] [INFO] Worker exiting (pid: 13898)
+[2023-11-02 11:09:58 +0400] [13901] [INFO] Worker exiting (pid: 13901)
+[2023-11-02 11:09:58 +0400] [13899] [INFO] Worker exiting (pid: 13899)
+[2023-11-02 11:09:58 +0400] [13902] [INFO] Worker exiting (pid: 13902)
+[2023-11-02 11:09:58 +0400] [13903] [INFO] Worker exiting (pid: 13903)
+[2023-11-02 11:09:58 +0400] [13888] [INFO] Shutting down: Master
+[2023-11-02 16:05:49 +0400] [24138] [INFO] Starting gunicorn 20.1.0
+[2023-11-02 16:05:49 +0400] [24138] [INFO] Listening at: http://127.0.0.1:8000 (24138)
+[2023-11-02 16:05:49 +0400] [24138] [INFO] Using worker: sync
+[2023-11-02 16:05:49 +0400] [24158] [INFO] Booting worker with pid: 24158
+[2023-11-02 16:05:49 +0400] [24160] [INFO] Booting worker with pid: 24160
+[2023-11-02 16:05:49 +0400] [24162] [INFO] Booting worker with pid: 24162
+[2023-11-02 16:05:49 +0400] [24166] [INFO] Booting worker with pid: 24166
+[2023-11-02 16:05:49 +0400] [24170] [INFO] Booting worker with pid: 24170
+[2023-11-02 16:05:49 +0400] [24171] [INFO] Booting worker with pid: 24171
+[2023-11-02 16:05:49 +0400] [24172] [INFO] Booting worker with pid: 24172
+[2023-11-02 16:08:06 +0400] [24138] [INFO] Handling signal: term
+[2023-11-02 16:08:06 +0400] [24158] [INFO] Worker exiting (pid: 24158)
+[2023-11-02 16:08:06 +0400] [24166] [INFO] Worker exiting (pid: 24166)
+[2023-11-02 16:08:06 +0400] [24162] [INFO] Worker exiting (pid: 24162)
+[2023-11-02 16:08:06 +0400] [24160] [INFO] Worker exiting (pid: 24160)
+[2023-11-02 16:08:06 +0400] [24170] [INFO] Worker exiting (pid: 24170)
+[2023-11-02 16:08:06 +0400] [24171] [INFO] Worker exiting (pid: 24171)
+[2023-11-02 16:08:06 +0400] [24172] [INFO] Worker exiting (pid: 24172)
+[2023-11-02 16:08:07 +0400] [24138] [INFO] Shutting down: Master
+[2023-11-05 08:48:45 +0400] [973] [INFO] Starting gunicorn 20.1.0
+[2023-11-05 08:48:45 +0400] [973] [INFO] Listening at: http://127.0.0.1:8000 (973)
+[2023-11-05 08:48:45 +0400] [973] [INFO] Using worker: sync
+[2023-11-05 08:48:45 +0400] [1333] [INFO] Booting worker with pid: 1333
+[2023-11-05 08:48:45 +0400] [1338] [INFO] Booting worker with pid: 1338
+[2023-11-05 08:48:45 +0400] [1346] [INFO] Booting worker with pid: 1346
+[2023-11-05 08:48:45 +0400] [1348] [INFO] Booting worker with pid: 1348
+[2023-11-05 08:48:45 +0400] [1349] [INFO] Booting worker with pid: 1349
+[2023-11-05 08:48:45 +0400] [1356] [INFO] Booting worker with pid: 1356
+[2023-11-05 08:48:45 +0400] [1363] [INFO] Booting worker with pid: 1363
+[2023-11-05 08:54:25 +0400] [973] [INFO] Handling signal: term
+[2023-11-05 08:54:25 +0400] [1333] [INFO] Worker exiting (pid: 1333)
+[2023-11-05 08:54:25 +0400] [1338] [INFO] Worker exiting (pid: 1338)
+[2023-11-05 08:54:25 +0400] [1346] [INFO] Worker exiting (pid: 1346)
+[2023-11-05 08:54:25 +0400] [1349] [INFO] Worker exiting (pid: 1349)
+[2023-11-05 08:54:25 +0400] [1348] [INFO] Worker exiting (pid: 1348)
+[2023-11-05 08:54:25 +0400] [1356] [INFO] Worker exiting (pid: 1356)
+[2023-11-05 08:54:25 +0400] [1363] [INFO] Worker exiting (pid: 1363)
+[2023-11-05 08:54:26 +0400] [973] [INFO] Shutting down: Master
+[2023-11-07 08:24:37 +0400] [1174] [INFO] Starting gunicorn 20.1.0
+[2023-11-07 08:24:37 +0400] [1174] [INFO] Listening at: http://127.0.0.1:8000 (1174)
+[2023-11-07 08:24:37 +0400] [1174] [INFO] Using worker: sync
+[2023-11-07 08:24:37 +0400] [1739] [INFO] Booting worker with pid: 1739
+[2023-11-07 08:24:37 +0400] [1740] [INFO] Booting worker with pid: 1740
+[2023-11-07 08:24:37 +0400] [1742] [INFO] Booting worker with pid: 1742
+[2023-11-07 08:24:37 +0400] [1754] [INFO] Booting worker with pid: 1754
+[2023-11-07 08:24:37 +0400] [1762] [INFO] Booting worker with pid: 1762
+[2023-11-07 08:24:38 +0400] [1777] [INFO] Booting worker with pid: 1777
+[2023-11-07 08:24:38 +0400] [1783] [INFO] Booting worker with pid: 1783

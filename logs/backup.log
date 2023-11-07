@@ -1,0 +1,18 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _75e49d084a4eb09a -p********** _75e49d084a4eb09a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.mustafakhan.com/private/backups/20231102_120003-erp_mustafakhan_com-database.sql.gz
+
+Backup Summary for erp.mustafakhan.com at 2023-11-02 12:00:06.159615
+Config  : ./erp.mustafakhan.com/private/backups/20231102_120003-erp_mustafakhan_com-site_config_backup.json 182.0B
+Database: ./erp.mustafakhan.com/private/backups/20231102_120003-erp_mustafakhan_com-database.sql.gz         1.3MiB
+Backup for Site erp.mustafakhan.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _75e49d084a4eb09a -p********** _75e49d084a4eb09a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.mustafakhan.com/private/backups/20231105_120003-erp_mustafakhan_com-database.sql.gz
+
+Backup Summary for erp.mustafakhan.com at 2023-11-05 12:00:04.959442
+Config  : ./erp.mustafakhan.com/private/backups/20231105_120003-erp_mustafakhan_com-site_config_backup.json 182.0B
+Database: ./erp.mustafakhan.com/private/backups/20231105_120003-erp_mustafakhan_com-database.sql.gz         1.4MiB
+Backup for Site erp.mustafakhan.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _75e49d084a4eb09a -p********** _75e49d084a4eb09a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.mustafakhan.com/private/backups/20231106_120002-erp_mustafakhan_com-database.sql.gz
+
+Backup Summary for erp.mustafakhan.com at 2023-11-06 12:00:06.418243
+Config  : ./erp.mustafakhan.com/private/backups/20231106_120002-erp_mustafakhan_com-site_config_backup.json 182.0B
+Database: ./erp.mustafakhan.com/private/backups/20231106_120002-erp_mustafakhan_com-database.sql.gz         1.4MiB
+Backup for Site erp.mustafakhan.com has been successfully completed
